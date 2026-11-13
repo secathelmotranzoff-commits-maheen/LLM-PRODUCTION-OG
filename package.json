@@ -1,0 +1,27 @@
+{
+  "name": "relay-ai-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/index.js",
+    "test": "node --test",
+    "local": "node scripts/local.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "pdfjs-dist": "^4.8.69",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "pdfkit": "^0.20.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
